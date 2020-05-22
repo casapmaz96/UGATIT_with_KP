@@ -423,7 +423,7 @@ class UGATIT(object) :
         plt.xlabel('iteration')
         plt.ylabel('loss')
         plt.title('Loss over iterations')
-        plt.savefig('lossiteration.png')
+        plt.savefig('lossiteration_' + self.iteration + '.png')
         print ("done training")
 
     def trainKP(self, ep=30):
